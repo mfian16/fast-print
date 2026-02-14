@@ -1,0 +1,216 @@
+/* ===============================
+   GLOBAL STYLE
+================================ */
+body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* ===============================
+   CARD
+================================ */
+.card {
+    border-radius: 15px;
+    border: none;
+}
+
+/* ===============================
+   TABLE
+================================ */
+.table td {
+    vertical-align: middle;
+}
+
+.nama-col {
+    max-width: 280px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.harga-col {
+    min-width: 160px;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* ===== HEADER SECTION ===== */
+
+.top-header {
+    margin-bottom: 25px;
+}
+
+.title-section h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.title-section p {
+    margin: 5px 0 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+.action-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* ===== BUTTON STYLE ===== */
+
+.btn {
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 6px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.btn-light {
+    background: #e9ecef;
+    color: #333;
+}
+
+.btn-success {
+    background: #28a745;
+    color: white;
+}
+
+.btn-dark {
+    background: #343a40;
+    color: white;
+}
+
+.btn-primary {
+    background: #007bff;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+/* ===== SEARCH ===== */
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box input {
+    padding: 7px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 6px;
+    width: 220px;
+}
+
+.search-box button {
+    padding: 7px 12px;
+    border: none;
+    border-radius: 5px;
+    background: #3498db;
+    color: white;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background: #2980b9;
+}
+
+.reset-btn {
+    padding: 8px 12px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.reset-btn:hover {
+    background-color: #c0392b;
+}
+
+/* ===============================
+   BUTTON
+================================ */
+.btn-primary {
+    border-radius: 10px;
+}
+
+.btn-warning {
+    border-radius: 8px;
+}
+
+.btn-danger {
+    border-radius: 8px;
+}
+
+/* ===============================
+   BADGE
+================================ */
+.badge {
+    font-size: 0.85rem;
+    padding: 6px 10px;
+}
+
+/* ===============================
+   PAGINATION
+================================ */
+.pagination {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.page-btn {
+    display: inline-block;
+    padding: 7px 14px;
+    margin: 4px;
+    border-radius: 6px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.page-btn:hover {
+    background-color: #1f6fa8;
+}
+
+.page-info {
+    margin: 0 12px;
+    font-weight: 600;
+    color: #555;
+}
+
+.form-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    margin-bottom: 40px;
+}
+
+/* ===============================
+   SIMPLE CLEAN HEADER
+================================ */
+
+.page-header {
+    padding: 30px 0 20px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.page-title {
+    font-weight: 700;
+    font-size: 28px;
+    color: #2c3e50;
+    letter-spacing: 0.5px;
+}
