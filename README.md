@@ -36,7 +36,7 @@ Aplikasi ini dibuat sebagai solusi untuk **Tes Junior Programmer Fast Print** me
 
 ```bash
 git clone https://github.com/mfian16/fast-print.git
-cd fast_print
+cd fast-print
 ```
 
 ---
