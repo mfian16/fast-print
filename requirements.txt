@@ -1,7 +1,7 @@
 asgiref==3.11.1
 certifi==2026.1.4
 charset-normalizer==3.4.4
-Django==4.1
+Django==4.2
 djangorestframework==3.16.1
 idna==3.11
 mysqlclient==2.2.8
